@@ -9,9 +9,9 @@ body {
   overflow: hidden;
 }
 
-.loading-screen{
-    display: flex;
-    z-index: 999999;
+.loading-screen {
+  display: flex;
+  z-index: 999999;
 }
 /* NAV-BAR */
 .side-nav {
@@ -49,14 +49,14 @@ body {
   -o-transition: top 0.5s;
 }
 
-.meal:hover ,.cursor-pointer:hover{
+.meal:hover,
+.cursor-pointer:hover {
   cursor: pointer;
 }
 
 .meal:hover .meal-layer {
   top: 0 !important;
 }
-
 
 .row input::placeholder {
   color: gray;
