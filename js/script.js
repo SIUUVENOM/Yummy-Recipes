@@ -1,7 +1,7 @@
 let rowData = document.querySelector(".row");
 $(document).ready(() => {
   getCategory().then(() => {
-    $(".loading-screen").fadeOut(500);
+    $(".loading-screen").fadeOut(1000);
     $("body").css("overflow", "visible");
   });
 });
