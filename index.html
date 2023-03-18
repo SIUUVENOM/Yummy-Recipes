@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="logo.png">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Yummy</title>
+</head>
+
+<body>
+    <div class="loading-screen position-fixed top-0 start-0 end-0 bottom-0 bg-black justify-content-center align-items-center">
+        <i class="fa fa-spinner fa-spin fa-5x text-white"></i>
+    </div>
+    <div class="side-nav position-fixed">
+        <div class="hidden position-absolute">
+            <ul class="navbar-nav mb-2 mb-lg-0 text-white p-5 overflow-hidden">
+                <li class="nav-item position-relative">
+                    <a class="nav-link px-2 py-3 active" aria-current="page" href="#" onclick="displaySrearch()">Search</a>
+                </li>
+                <li class="nav-item position-relative">
+                    <a class="nav-link px-2 py-3" href="#" onclick="categories()">Categories</a>
+                </li>
+                <li class="nav-item position-relative">
+                    <a class="nav-link px-2 py-3" href="#" onclick="area()">Area</a>
+                </li>
+                <li class="nav-item position-relative">
+                    <a class="nav-link px-2 py-3" href="#" onclick="ingredents()">Ingredients</a>
+                </li>
+                <li class="nav-item position-relative">
+                    <a class="nav-link px-2 py-3" href="#" onclick="contacts()">Contact Us</a>
+                </li>
+            </ul>
+            <div class="foot text-white ps-4 pb-3">
+                <div class="social">
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-solid fa-globe"></i>
+                </div>
+                <p>Copyright Â© 2019 All Rights
+                    Reserved.</p>
+            </div>
+        </div>
+        <div class="right position-absolute end-0 top-0 bg-white d-flex flex-column justify-content-between">
+            <img src="logo.png" alt="logo" class="mx-auto w-75 mt-4">
+            <i class="fa-solid fa-bars fa-3x m-auto close"></i>
+            <div class="social d-flex flex-column">
+                <i class="fa-solid fa-globe m-auto"></i>
+                <i class="fa-solid fa-share-nodes m-auto py-3"></i>
+            </div>
+        </div>
+    </div>
+    <div class="min-vh-100 position-relative">
+        <div class="container">
+            <div class="row py-5">
+                
+            </div>
+            <div class="row search-container"></div>
+        </div>
+    </div>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/jquery-3.6.3.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
